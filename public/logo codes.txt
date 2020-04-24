@@ -1,0 +1,19 @@
+
+Javascript icon tag
+
+<i class="fab fa-js-square"></i>
+Download SVGPerfect for when you want to use just one icon as a vector on the desktop or in your own icon workflow.
+
+HTML 5 Icon
+<i class="fab fa-html5"></i>
+
+React Icon
+<i class="fab fa-react"></i>
+Download SVGPerfect for when you want to use just one icon as a vector on the desktop or in your own icon workflow.
+
+css3 Icon
+<i class="fab fa-css3"></i>
+Download SVGPerfect for when you want to use just one icon as a vector on the desktop or in your own icon workflow.
+
+Handlebars Icon "credit on website"
+<a href="https://iconscout.com/icons/handlebars" target="_blank">Handlebars Logo Icon</a> by <a href="https://iconscout.com/contributors/icon-mafia" target="_blank">Icon Mafia</a>

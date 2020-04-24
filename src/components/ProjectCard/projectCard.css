@@ -1,0 +1,23 @@
+
+.card-btn{
+    padding: 1px 5px!important;
+    margin: 0px 2px!important;
+
+}
+
+a{
+    color: white;
+    text-decoration: none!important;
+    text-underline-position: none!important;
+
+}
+
+a:visited{
+    color: #d1c4e9;
+}
+
+.img{
+    border: 3px;
+    border-radius: 5px;
+    border-color: "primary";
+}
