@@ -4,6 +4,8 @@ import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 import CollabHub from '../ProjectCard/Projects/collabHub.js';
 import Tossup from '../ProjectCard/Projects/tossup.js';
+import ProjectCard from '../ProjectCard/projects.json'
+import ParksQuiz from '../ProjectCard/Projects/quiz.js';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,21 +26,20 @@ export default function PortfolioGrid() {
       <Grid container spacing={3}>
         <Grid item s={12} m={6}>
           <Paper className={classes.paper}>
+              <Tossup />
+        </Paper>
+        </Grid>
+        <Grid item s={12} m={6}>
+          <Paper className={classes.paper}>
               <CollabHub />
         </Paper>
         </Grid>
         <Grid item s={12} m={6}>
           <Paper className={classes.paper}>
-              <Tossup />
+              <ParksQuiz />
         </Paper>
         </Grid>
         {/* <Grid item xs={6}>
-          <Paper className={classes.paper}>xs=3</Paper>
-        </Grid>
-        <Grid item xs={6}>
-          <Paper className={classes.paper}>xs=3</Paper>
-        </Grid>
-        <Grid item xs={6}>
           <Paper className={classes.paper}>xs=3</Paper>
         </Grid>
         <Grid item xs={6}>

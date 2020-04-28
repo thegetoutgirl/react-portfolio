@@ -1,47 +1,32 @@
 [
   {
-    "id": 1,
-    "title": "TossUp!",
-    "subheader": "A fullstack casual game, utilizing React, MongoDB, and PassportJS, deployed on Heroku.",
-    "image": "screenshot",
-    "imageTitle": "CollabHub",
-    "links": "git hub repo, deployed app links",
-    "details": "More about the project's creation and what it does"
+    id: 1,
+    title: "TossUp!",
+    subheader: "A full stack casual game, utilizing React, MongoDB, and PassportJS, deployed on Heroku.",
+    image: "screenshot",
+    imageTitle: "TossUp election game screenshot",
+    deployedLink: "https://evening-waters-26047.herokuapp.com/",
+    githubRepo: "https://github.com/nicknackwackpat/Tossup",
+    details: "A full MERN-stack election simulation app built in React using random number calculations, Mongo database, and deployed on Heroku. "
   },
   {
-    "id": 2,
-    "title": "CollabHub",
-    "subheader": "A fullstack app utilizing MongoDB, Handlebars, and PassportJS, deployed on Heroku.",
-    "image": "screenshot",
-    "imageTitle": "CollabHub",
-    "links": "git hub repo, deployed app links",
-    "details": "More about the project's creation and what it does"
+    id: 2,
+    title: "CollabHub",
+    subheader: "A full stack app utilizing MySql, Handlebars, and PassportJS, deployed on Heroku.",
+    image: "screenshot",
+    imageTitle: "CollabHub",
+    deployedLink: "https://collab-hub.herokuapp.com/",
+    githubRepo: "https://github.com/thegetoutgirl/collabHub",
+    details: "An app to connect developers in their area for collaborations. MySQL database with Sequelize ORM, Handlebars templates, and PassportJS for user authentication."
   },
-  {
-    "id": 3,
-    "title": "What2Do",
-    "subheader": "Front-end app using Javascript, Google Location & Yelp APIs, and Materialize CSS",
-    "image": "screenshot",
-    "imageTitle": "What2Do",
-    "links": "git hub repo, deployed app links",
-    "details": "More about the project's creation and what it does"
-  },
-  {
-    "id": 4,
-    "title": "Weather Dashboard",
-    "subheader": "Uses Weather API blah blah",
-    "image": "screenshot",
-    "imageTitle": "Weather Dashboard",
-    "links": "git hub repo, deployed app links",
-    "details": "More about the project's creation and what it does"
-  },
-  {
-    "id": 5,
-    "title": "National Parks Quiz",
-    "subheader": "Front-end Javascript app",
-    "image": "screenshot",
-    "imageTitle": "National Parks Quiz",
-    "links": "git hub repo, deployed app links",
-    "details": "More about the project's creation and what it does"
-  },
+// {
+//   id: "",
+//   title: "",
+//   subheader: "",
+//   image: "",
+//   imageTitle: "",
+//   deployedLink: "",
+//   githubRepo: "",
+//   details: ""
+// },
 ]

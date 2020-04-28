@@ -13,10 +13,8 @@ import { red } from '@material-ui/core/colors';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import Button from '@material-ui/core/Button';
 
-import collabHubImg from './Screenshots/collabHub.png';
+import quizImg from './Screenshots/quizImg.png';
 import "../projectCard.css";
-import "./projects.json"
-import { render } from '@testing-library/react';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -43,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Project(props) {
+export default function ParksQuiz() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 
@@ -52,25 +50,24 @@ export default function Project(props) {
   };
 
   return (
-    <Card className={classes.root} />
-      <CardHeader {...project.map(project => 
-        <ProjectCard
-        title={project.title}
-        subheader={project.subheader}
-        />
+    <Card className={classes.root}>
+      <CardHeader
+        title="National Parks Quiz"
+        // subheader="icons here"
+      />
       <CardMedia
         className={classes.media}
-        image= {project.image}
-        title={project.title} />
+        image= {quizImg}
+        title="National Parks Quiz Screenshot"
+      />
       <CardContent>
-        <p><Button variant="contained" color="primary" className="card-btn" href="#contained-buttons"> <a href={project.deployedLink} target="_blank" rel="noopener noreferrer">
+        <p><Button variant="contained" color="primary" className="card-btn" href="#contained-buttons"> <a href="http://thegetoutgirl.github.io/quiz-app" target="_blank" rel="noopener noreferrer">
         App Link</a>
-        </Button>   <Button variant="contained" color="primary" href="#contained-buttons" className="card-btn"> <a href={project.githubRepo} target="_blank" rel="noopener noreferrer">
+        </Button>   <Button variant="contained" color="primary" href="#contained-buttons" className="card-btn"> <a href="https://github.com/thegetoutgirl/quiz-app" target="_blank" rel="noopener noreferrer">
         Github Repo</a>
       </Button>
       </p>
       </CardContent>
-      
       <CardActions>
       {/* disableSpacing */}
         <IconButton
@@ -87,12 +84,10 @@ export default function Project(props) {
       <Collapse in={expanded} timeout="auto" unmountOnExit>
         <CardContent>
           <Typography paragraph>
-          {project.details}
+          A click-through JavaScript Quiz.
           </Typography>
         </CardContent>
       </Collapse>
-    
-    
-    )} />
-  
+    </Card>
+  );
 }
